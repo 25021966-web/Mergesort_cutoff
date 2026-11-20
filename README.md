@@ -8,7 +8,6 @@ Thí nghiệm tìm giá trị CUTOFF phù hợp cho thuật toán MergeSort kế
 
 - `src/main/java/`: Mã nguồn Java.
 - `phan_tich/`: Script Python phân tích kết quả.
-- `du_lieu/`: Dữ liệu mẫu.
 - `ket_qua/`: Dữ liệu CSV, bảng thống kê và biểu đồ.
 - `bao_cao/`: Báo cáo thực nghiệm.
 
