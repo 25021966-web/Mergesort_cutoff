@@ -176,7 +176,7 @@ n_groups = len(groups)
 if n_groups == 0:
     raise ValueError("Khong co nhom du lieu hop le.")
 
-# Hieu chinh Bonferroni cho so sanh CUTOFF 7 va 10
+# Hieu chinh so sanh CUTOFF 7 va 10
 
 alpha_7_10 = ALPHA / n_groups
 
@@ -238,7 +238,7 @@ for (data_type, n), sub in wide.groupby(level=["type", "n"]):
         )
     })
 
-    # So sanh truc tiep CUTOFF 7 va 10
+    # So sanh CUTOFF 7 va 10
 
     if 7 in sub.columns and 10 in sub.columns:
 
@@ -305,7 +305,7 @@ for data_type in TEN_DANG:
 
     positions = {c: i for i, c in enumerate(cutoffs)}
 
-    # Thoi gian tuyet doi
+    # Thoi gian
 
     plt.figure(figsize=(9, 5))
 
