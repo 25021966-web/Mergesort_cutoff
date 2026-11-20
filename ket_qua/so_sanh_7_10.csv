@@ -1,0 +1,13 @@
+type,n,median_7_ms,median_10_ms,trung_vi_hieu_10_tru_7_ms,khoang_tin_cay_95_thap,khoang_tin_cay_95_cao,khoang_tin_cay_hieu_chinh_thap,khoang_tin_cay_hieu_chinh_cao,ket_luan_chua_hieu_chinh,ket_luan
+nearly,10000,1.364650,1.317800,-0.100500,-0.141500,-0.067626,-0.181750,-0.046900,CUTOFF 10 nhanh hon,CUTOFF 10 nhanh hon
+nearly,100000,17.846200,18.383500,0.232600,-0.067800,0.890700,-0.172737,1.899000,Khong phan biet duoc,Khong phan biet duoc
+nearly,1000000,571.464600,554.332300,-26.709600,-50.096300,5.558600,-58.767400,26.477000,Khong phan biet duoc,Khong phan biet duoc
+random,10000,2.155600,2.103250,-0.079050,-0.158050,0.004900,-0.187250,0.041200,Khong phan biet duoc,Khong phan biet duoc
+random,100000,34.115450,33.745800,-0.140050,-0.578400,0.200200,-0.729950,0.524000,Khong phan biet duoc,Khong phan biet duoc
+random,1000000,737.990000,726.811000,-25.320350,-39.427200,-7.059050,-59.910450,9.627300,CUTOFF 10 nhanh hon,Khong phan biet duoc
+reversed,10000,1.632450,1.675600,0.134000,0.084700,0.157500,0.062316,0.165319,CUTOFF 7 nhanh hon,CUTOFF 7 nhanh hon
+reversed,100000,22.315350,22.028700,0.154750,-0.524850,0.484250,-0.798000,0.963987,Khong phan biet duoc,Khong phan biet duoc
+reversed,1000000,561.915450,598.112050,15.503400,-2.796000,45.864800,-27.593876,60.990000,Khong phan biet duoc,Khong phan biet duoc
+sorted,10000,1.239950,1.107850,-0.116650,-0.129600,-0.094900,-0.138250,-0.090122,CUTOFF 10 nhanh hon,CUTOFF 10 nhanh hon
+sorted,100000,15.256900,15.584600,0.180200,-0.022000,0.407850,-0.168100,0.492138,Khong phan biet duoc,Khong phan biet duoc
+sorted,1000000,610.462550,544.327200,-13.520950,-65.310100,10.083750,-103.003600,39.079300,Khong phan biet duoc,Khong phan biet duoc
