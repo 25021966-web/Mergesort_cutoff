@@ -6,11 +6,12 @@ public class SampleWriter
 {
     public static void main(String[] args) throws IOException
     {
-        new File("du_lieu").mkdirs();
+        new File("du_lieu_mau").mkdirs();
 
-        write("du_lieu/mau_ngau_nhien_10000.txt", "random");
-        write("du_lieu/mau_gan_sap_xep_10000.txt", "nearly");
-        write("du_lieu/mau_nguoc_thu_tu_10000.txt", "reversed");
+        write("du_lieu_mau/mau_ngau_nhien_10000.txt", "random");
+        write("du_lieu_mau/mau_gan_sap_xep_10000.txt", "nearly");
+        write("du_lieu_mau/mau_nguoc_thu_tu_10000.txt", "reversed");
+        write("du_lieu_mau/mau_da_sap_xep_10000.txt", "sorted");
     }
 
     private static void write(String path, String type) throws IOException
